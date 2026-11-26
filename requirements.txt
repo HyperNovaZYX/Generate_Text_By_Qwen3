@@ -1,0 +1,4 @@
+# 服务端 GPU 样本生成依赖（Python >= 3.9）
+# 说明：离线单元测试（tests/）与只读验收/切分脚本（scripts/）仅依赖 Python 标准库，无需安装 vLLM。
+vllm>=0.6.0
+tqdm>=4.66.0
